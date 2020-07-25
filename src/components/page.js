@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './page.css';
 import Card from './card';
+const customData = require('./colleges.json');
 
 export default class Page extends Component {
     constructor(props) {
@@ -13,31 +14,22 @@ export default class Page extends Component {
           total_pages: null
         }
       }
-
+      
       componentDidMount(){
         const getData = () => {
-            const url = './colleges.json'
-            fetch(url).then(response => {
-                return response.json();
-              }).then(collegesData => {
-                const limitedData = [];
+            const limitedData = [];
                 for (var i = 0; i <= this.state.end;i++){
-                  limitedData.push(collegesData.colleges[i])
+                  limitedData.push(customData.colleges[i])
                 }
                 this.setState(
                   {
                     fetchingData: false,
                     data: limitedData
                 })
-                console.log(this.state.data)
-              }).catch(err => {
-                // Do something for an error here
-                console.log("Error Reading data " + err);
-              });
+              ;
 
         }
         getData();
-
          this.loadMore =() => {
           this.setState(
             prevState => ({
@@ -75,8 +67,8 @@ export default class Page extends Component {
                {this.state.data != null ?
                <div className='container'>
                
-                 {this.state.data.map(collegeData =>
-                   <Card college={collegeData}/>
+                 {this.state.data.map((collegeData,k) =>
+                   <Card college={collegeData} key= {k}/>
                   )}
                  
                 </div>
