@@ -1,0 +1,341 @@
+.card-container{
+    width: 639px;
+    height: 377px;
+    background-color: rgba(68, 68, 68, 0.1);
+    border-radius: 3.8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow:0 0 2px #444444;
+    position: relative;
+    margin-top:74.7px;
+}
+
+/*Image container start*/
+.image-container{
+    width: 100%;
+    height: 233.2px;
+    border-top-left-radius: 3.8px;
+    border-top-right-radius: 3.8px;
+    position: relative;
+}
+
+.image{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    background-size: cover;
+    filter: brightness(25%);
+    border-top-left-radius: 3.8px;
+    border-top-right-radius: 3.8px;
+}
+
+.rating{
+    height: 53px;
+    width: 75px;
+    background-color: #f5a626;
+    position: absolute;
+    z-index: 2;
+    border-radius: 3.8px;
+    left: 550px;
+    top: 27.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13.5px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    line-height: 18px;
+    font-family: DINPro-Medium;
+}
+
+/*Image footer start*/
+.image-footer{
+    position: absolute;
+    width: 609px;
+    height: 34px;
+    top: 188.3px;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+
+.circular-box{
+    height: 32px;
+    width: fit-content;
+    padding-left:15px;
+    padding-right: 15px;
+    background-color: white;
+    border-radius: 16.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13.5px;
+    font-family: DINPro-Medium;
+    padding-bottom: 2px;
+    color: #444444;
+    margin-left:7px;
+}
+
+
+.image-footer-text{
+    height: 100%;
+    font-family: DINPro-Medium;
+    color:white;
+    font-size: 13.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spacer{
+    flex-grow: 1;
+}
+/*Image footer end*/
+/*Image container end*/
+
+
+/*Content container end*/
+.content-container{
+    width: 100%;
+    height: 143.8px;
+    border-bottom-left-radius: 3.8px;
+    border-bottom-right-radius: 3.8px;
+    display: flex;
+    background-color: white;
+}
+
+.left-content{
+    width: 407px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container{
+    width: 100%;
+    height: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 18.2px;
+}
+
+.header{
+    font-size: 18.5px;
+    color: #444444;
+    margin-left: 17px;
+    font-family: DINPro-Bold;
+}
+
+/*star start*/
+.stars-container{
+    width: 68px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: center;
+}
+.star{
+    width: 0;
+    height: 0;
+    border-left: solid 7px transparent;
+    border-right: solid 7px transparent;
+    border-bottom: solid 5px #444444;
+    transform:rotatez(35deg) scale(0.9);
+    margin-top: 7px;
+  }
+
+.star:before{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    top: -3px;
+    left: -4.5px;
+    border-left: solid 2.1px transparent;
+    border-right: solid 2.1px transparent;
+    border-bottom: solid 5.7px #444444;
+    transform:rotatez(-35deg);
+  }
+
+.star:after{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    left: -7px;
+    border-left: solid 7px transparent;
+    border-right: solid 7px transparent;
+    border-bottom: solid 5px #444444;
+    transform:rotatez(-70deg);
+  }
+
+.empty-star{
+    border-bottom: solid 5px #a2a2a2;
+  }
+
+.empty-star:before{
+    border-bottom: solid 5.7px #a2a2a2;
+  }
+
+.empty-star:after{
+    border-bottom: solid 5px #a2a2a2;
+  }
+
+/*star end*/
+
+/*nearest-container start*/
+.nearest-container{
+    height: 13px;
+    width: 100%;
+    margin-top:11px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:  #444444;
+    font-size: 13.5px;
+    font-family: DINPro-Medium;
+    margin-left: 7px;
+}
+
+.nearest-place:nth-of-type(even) {
+    color: #adadad;
+    margin-left: -16px;
+}
+/*nearest-container end*/
+
+.famous-nearest-places{
+    height: 13px;
+    width: 100%;
+    margin-top:17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13.5px;
+    font-family: DINPro-Medium;
+    color: #adadad;
+}
+
+.offer-text-container{
+    height: 35px;
+    width: 348px;
+    background-color: #ccf5e7;
+    margin-top: 9px;
+    border-radius: 0 17.5px 17.5px 0;
+    font-size: 13.5px;
+    font-family: DINPro-Medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 9px;
+}
+
+.right-content{
+    width: 199px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 33px;
+    
+}
+
+.discount-container{
+    height: 14px;
+    width: 70px;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #444444;
+    margin-top:12.2px;
+}
+
+.discount-badge{
+    height: 14px;
+    width: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-rectangle{
+    height: 14px;
+    width: 24px;
+    background-color: #dd1c26;
+    color: white;
+    font-size: 11px;
+    font-family: DINPro-Medium;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4px;
+
+}
+
+.discount-circle{
+    background: white;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+}
+
+.discount-triangle{
+    /*width: 28px;
+    height: 33px;*/
+    width: 0px;
+    height: 0px;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 10px solid #dd1c26;
+}
+
+.discounted-price-container{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.discounted-price{
+    font-size: 28.5px;
+    color: #dd1c26;
+    font-family: DINPro-Bold;
+}
+
+.fees-cycle{
+    font-size: 11px;
+    color: #444444;
+    font-family: DINPro-Medium;
+    margin-top: -9px;
+}
+
+.amenties-container{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #37b396;
+    font-family: DINPro-Bold;
+    font-size: 13.5px;
+    margin-bottom: 24px;
+}
+
+.amenties{
+    width: auto;
+}
+
+/*Content container end*/

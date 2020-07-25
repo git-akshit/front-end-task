@@ -1,0 +1,33 @@
+
+.badge-container{
+    width: 152px;
+    height: 33px;
+    background-color: transparent;
+    position: absolute;
+    z-index:2;
+    left:487px;
+    top: -16.5px;
+    display: flex;
+}
+
+.triangle{
+    /*width: 28px;
+    height: 33px;*/
+    width: 0px;
+    height: 0px;
+    border-top: 16.5px solid #68a7ff;
+    border-bottom: 16.5px solid #68a7ff;
+    border-left: 24px solid transparent;
+}
+
+.rectangle{
+    width: 128px;
+    height: 33px;
+    background-color: #68a7ff;
+    color:white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: DINPro-Medium;
+}
