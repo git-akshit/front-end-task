@@ -2,7 +2,7 @@
   "name": "front-end-task",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://git-akshit.github.io/front-end-task",
+  "homepage": "https://git-akshit.github.io/front-end-task/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
