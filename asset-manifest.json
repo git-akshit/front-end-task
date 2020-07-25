@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/front-end-task/static/css/main.074c155e.chunk.css",
+    "main.js": "/front-end-task/static/js/main.4a9c5eaa.chunk.js",
+    "main.js.map": "/front-end-task/static/js/main.4a9c5eaa.chunk.js.map",
+    "runtime-main.js": "/front-end-task/static/js/runtime-main.65e45c9e.js",
+    "runtime-main.js.map": "/front-end-task/static/js/runtime-main.65e45c9e.js.map",
+    "static/js/2.dda66f4f.chunk.js": "/front-end-task/static/js/2.dda66f4f.chunk.js",
+    "static/js/2.dda66f4f.chunk.js.map": "/front-end-task/static/js/2.dda66f4f.chunk.js.map",
+    "index.html": "/front-end-task/index.html",
+    "precache-manifest.d41eac04480e37a1800907faeaf0042f.js": "/front-end-task/precache-manifest.d41eac04480e37a1800907faeaf0042f.js",
+    "service-worker.js": "/front-end-task/service-worker.js",
+    "static/css/main.074c155e.chunk.css.map": "/front-end-task/static/css/main.074c155e.chunk.css.map",
+    "static/js/2.dda66f4f.chunk.js.LICENSE.txt": "/front-end-task/static/js/2.dda66f4f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/front-end-task/static/media/DINPro-Mediumtr.bbed362e.woff",
+    "static/media/college.png": "/front-end-task/static/media/college.619ee97e.png",
+    "static/media/college_01.jpg": "/front-end-task/static/media/college_01.8793ec0e.jpg",
+    "static/media/logo.svg": "/front-end-task/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65e45c9e.js",
+    "static/js/2.dda66f4f.chunk.js",
+    "static/css/main.074c155e.chunk.css",
+    "static/js/main.4a9c5eaa.chunk.js"
+  ]
+}
