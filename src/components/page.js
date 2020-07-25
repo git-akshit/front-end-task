@@ -33,7 +33,7 @@ export default class Page extends Component {
          this.loadMore =() => {
           this.setState(
             prevState => ({
-              end: prevState.end < 40 ? prevState.end + 10 : 49,
+              end: prevState.end <= 40 ? prevState.end + 10 : 49,
               scrolling: true
             }),
             getData()
